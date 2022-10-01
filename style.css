@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(237, 212, 216);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  text-align: center;
+}
+.button-hero {
+  margin: 0 auto;
+  background: #6c63ff;
+  color: white;
+}
