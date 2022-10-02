@@ -1,6 +1,12 @@
 body {
   background-color: rgb(237, 212, 216);
 }
+:root {
+  --primary-color: #c62371;
+  --secondary-color: white;
+  --button-color: #6c63ff;
+  --link-color: #442853;
+}
 h1,
 h2,
 h3,
@@ -15,27 +21,38 @@ h7 {
 
 .button-hero {
   margin: 20px auto;
-  background: #6c63ff;
-  color: white;
+  background: var(--button-color);
+  color: var(--secondary-color);
 }
 .app-link {
-  background: #442853;
-  color: white;
+  background: var(--link-color);
+  color: var(--secondary-color);
   border: 3px groove #bd3077;
   border-radius: 30px;
   padding: 20px 15px;
   opacity: 0.5;
   text-decoration: none;
-  box-shadow: 0 5px 10px #c62371;
+  box-shadow: 0 5px 10px var(--primary-color);
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
   text-transform: capitalize;
   width: 150px;
 }
+.app-link:hover {
+  background: var(--primary-color);
+  color: var(--link-color);
+}
 .app-headings {
-  font-size: 48px;
-  margin-top: 20px;
+  font-size: 36px;
+  margin: 40px;
 }
 .app-description {
   font-size: 16px;
+}
+.app-images {
+  margin-bottom: 20px;
+}
+.footer-links {
+  text-decoration: none;
+  color: var(--button-color);
 }
