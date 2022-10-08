@@ -56,3 +56,33 @@ h7 {
   text-decoration: none;
   color: var(--button-color);
 }
+.about-me-heading {
+  font-size: 64px;
+}
+.my-picture {
+  border-radius: 5%;
+}
+.button-about {
+  width: 150px;
+  height: 45px;
+  margin: 20px 0;
+  background: var(--button-color);
+  color: var(--secondary-color);
+}
+.inquiry p {
+  color: #272142;
+  opacity: 70%;
+}
+.inquiry {
+  background: #dec1c6;
+}
+.my-email {
+  display: block;
+  margin: 30px auto;
+}
+.about-me {
+  margin: 60px;
+}
+.about-img {
+  margin: 40px;
+}
