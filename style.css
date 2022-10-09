@@ -48,6 +48,7 @@ h7 {
 }
 .app-description {
   font-size: 16px;
+  text-align: center;
 }
 .app-images {
   margin-bottom: 20px;
@@ -67,6 +68,7 @@ h7 {
 .my-picture {
   border-radius: 5%;
 }
+.button-about-contacts,
 .button-about {
   width: 150px;
   height: 45px;
@@ -136,13 +138,23 @@ h7 {
   .about-me {
     max-width: 70%;
   }
-  .inquiry-about .inquiry {
-    max-width: 80%;
-  }
+
   .footer-contact-links,
   .footer-works {
     display: flex;
     justify-content: center;
     margin-right: 10px;
+    font-size: 12px;
+  }
+  .my-email {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .about-me-heading {
+    font-size: 24px;
   }
 }
