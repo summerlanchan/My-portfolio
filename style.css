@@ -87,6 +87,7 @@ h7 {
   background: #dec1c6;
   margin-left: 55px;
 }
+
 .my-email {
   display: block;
   margin: 30px auto;
@@ -104,10 +105,10 @@ h7 {
   margin-top: 40px;
   background: #dec1c6;
 }
+
+.works-inquiry,
+.my-email,
 .works-heading {
-  margin-top: 60px;
-}
-.works-inquiry {
   margin-top: 60px;
 }
 .works-examples {
@@ -116,9 +117,7 @@ h7 {
 .hero .heading-contacts {
   margin: 100px 0;
 }
-.my-email {
-  margin-top: 60px;
-}
+
 .about-me h4 {
   text-align: left;
 }
@@ -133,6 +132,12 @@ h7 {
   color: var(--secondary-color);
   margin-top: 20px;
   border-radius: 10px;
+}
+footer .open-source-link {
+  text-align: center;
+  margin: 10px;
+  color: var(--link-color);
+  font-family: "Playfair Display", serif;
 }
 @media (max-width: 576px) {
   .about-me {
@@ -150,11 +155,10 @@ h7 {
     font-size: 14px;
   }
 
-  h1 {
-    font-size: 18px;
-  }
-
   .about-me-heading {
     font-size: 24px;
+  }
+  .inquiry-contacts {
+    width: 300px;
   }
 }
