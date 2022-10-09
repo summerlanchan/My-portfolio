@@ -55,6 +55,11 @@ h7 {
 .footer-links {
   text-decoration: none;
   color: var(--button-color);
+  margin-right: 32px;
+}
+.footer-works {
+  margin-top: 40px;
+  padding-top: 30px;
 }
 .about-me-heading {
   font-size: 64px;
@@ -65,9 +70,12 @@ h7 {
 .button-about {
   width: 150px;
   height: 45px;
-  margin: 20px 0;
+  margin: 30px;
   background: var(--button-color);
   color: var(--secondary-color);
+}
+.about-paragraph .button-about {
+  margin: 20px auto;
 }
 .inquiry p {
   color: #272142;
@@ -80,6 +88,7 @@ h7 {
 .my-email {
   display: block;
   margin: 30px auto;
+  font-size: 24px;
 }
 .about-me {
   margin: 60px;
@@ -93,6 +102,15 @@ h7 {
   margin-top: 40px;
   background: #dec1c6;
 }
+.works-heading {
+  margin-top: 60px;
+}
+.works-inquiry {
+  margin-top: 60px;
+}
+.works-examples {
+  margin-top: 40px;
+}
 .hero .heading-contacts {
   margin: 100px 0;
 }
@@ -104,4 +122,27 @@ h7 {
 }
 .about-me h1 {
   text-align: left;
+}
+.button-contact {
+  margin: 0 auto;
+  width: 150px;
+  height: 45px;
+  background: var(--button-color);
+  color: var(--secondary-color);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .about-me {
+    max-width: 70%;
+  }
+  .inquiry-about .inquiry {
+    max-width: 80%;
+  }
+  .footer-contact-links,
+  .footer-works {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+  }
 }
